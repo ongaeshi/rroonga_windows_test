@@ -22,6 +22,17 @@ $ git clone git://github.com/ongaeshi/rroonga-windows-test.git
 $ gem install archive-zip
 ```
 
+(3) 1st exec (Success)
+
+```
+$ cd rroonga-windows-test
+$ ruby main.rb
+--- download file ---
+--- setup database ---
+--- add record ---
+--- access test ---
+```
+
 (4) 2nd exec (Error on Windows)
 
 ```
