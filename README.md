@@ -1,28 +1,28 @@
-# # rroonga-windows-test 
+# rroonga-windows-test 
 
-rroonga for Windowsでエラーが起きるのを再現するスクリプトです。
+Windows版rroongaでエラーが起きるのを再現するスクリプトです。
 
 ## Install
 
-(1) Install NougakuDo 1.3.4
+### 1. Install NougakuDo 1.3.4
 
 ```
 http://www.artonx.org/data/nougakudo/index.html
 ```
 
-(2) checkout script
+### 2. checkout script
 
 ```
 $ git clone git://github.com/ongaeshi/rroonga-windows-test.git
 ```
    
-(3) Install archive-zip gem
+### 3. Install archive-zip gem
 
 ```
 $ gem install archive-zip
 ```
 
-(3) 1st exec (Success)
+### 4. 1st exec (Success)
 
 ```
 $ cd rroonga-windows-test
@@ -33,7 +33,7 @@ $ ruby main.rb
 --- access test ---
 ```
 
-(4) 2nd exec (Error on Windows)
+### 5. 2nd exec (Error on Windows)
 
 ```
 $ ruby main.rb
