@@ -10,18 +10,18 @@ Windows版rroongaでエラーが起きるのを再現するスクリプトです
 http://www.artonx.org/data/nougakudo/index.html
 ```
 
-### 2. checkout script
-
-```
-$ git clone git://github.com/ongaeshi/rroonga-windows-test.git
-```
-   
-### 3. Install archive-zip gem
+### 2. Install archive-zip gem
 
 ```
 $ gem install archive-zip
 ```
 
+### 3. checkout script
+
+```
+$ git clone git://github.com/ongaeshi/rroonga-windows-test.git
+```
+   
 ### 4. 1st exec (Success)
 
 ```
