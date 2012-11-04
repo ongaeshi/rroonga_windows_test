@@ -1,4 +1,4 @@
-# rroonga-windows-test 
+# rroonga_windows_test
 
 Windows版rroongaでエラーが起きるのを再現するスクリプトです。
 
@@ -19,13 +19,13 @@ $ gem install archive-zip
 ### 3. checkout script
 
 ```
-$ git clone git://github.com/ongaeshi/rroonga-windows-test.git
+$ git clone git://github.com/ongaeshi/rroonga_windows_test.git
 ```
    
 ### 4. 1st exec (Success)
 
 ```
-$ cd rroonga-windows-test
+$ cd rroonga_windows_test
 $ ruby main.rb
 --- download file ---
 --- setup database ---
@@ -39,7 +39,7 @@ $ ruby main.rb
 $ ruby main.rb
 .
 .
-Z:/Documents/rroonga-windows-test/download/ruby-1.9.2-p290-2/ruby-1.9.2-p290/test/ruby/test_transcode.rb
+Z:/Documents/rroonga_windows_test/download/ruby-1.9.2-p290-2/ruby-1.9.2-p290/test/ruby/test_transcode.rb
 C:/Users/ongaeshi/AppData/Roaming/NOUGAK~1/lib/ruby/gems/1.9.1/gems/rroonga-2.0.6/lib/groonga/record.rb:329:in `[]': unknown error: syscall error 'CreateFile' (unknown error): #<Groonga::VariableSizeColumn id: <260>, name: <documents.content>, path: <database/test.db.0000104>, domain: <documents>, range: <Text>, flags: <>> (Groonga::UnknownError)
 C:\Users\arton\Documents\projects\groonga-2.0.7\lib\io.c:1636: grn_open()
         from C:/Users/ongaeshi/AppData/Roaming/NOUGAK~1/lib/ruby/gems/1.9.1/gems/rroonga-2.0.6/lib/groonga/record.rb:329:in `method_missing'
